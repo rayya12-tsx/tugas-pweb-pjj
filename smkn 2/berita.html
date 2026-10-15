@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Berita & Informasi - SMK Negeri 2 Padang</title>
+  <meta name="description" content="Portal Berita dan Kabar Terkini SMK Negeri 2 Padang seputar prestasi, kegiatan siswa, kemitraan industri, dan pengumuman sekolah.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="assets/images/logo.jpg">
+  
+  <!-- Bootstrap 5.3.3 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <!-- Custom Style -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Top Utility Bar -->
+  <div class="topbar">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center">
+      <div class="d-flex align-items-center gap-3">
+        <span><i class="bi bi-geo-alt text-warning me-1"></i> Jl. Baru Andalas No. 5, Simpang Haru, Padang Timur</span>
+        <span class="d-none d-md-inline"><i class="bi bi-envelope text-warning me-1"></i> info@smkn2padang.sch.id</span>
+        <span class="d-none d-lg-inline"><i class="bi bi-telephone text-warning me-1"></i> (0751) 22915</span>
+      </div>
+      <div class="d-flex align-items-center gap-2">
+        <span class="d-none d-sm-inline">Ikuti Kami:</span>
+        <div class="social-links">
+          <a href="#" title="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" title="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" title="YouTube"><i class="bi bi-youtube"></i></a>
+          <a href="#" title="TikTok"><i class="bi bi-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navbar -->
+  <nav class="navbar navbar-expand-lg main-navbar sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/images/logo.jpg" alt="Logo SMKN 2 Padang" class="brand-logo">
+        <div class="brand-text">
+          <span class="brand-title">SMK NEGERI 2 PADANG</span>
+          <span class="brand-subtitle">Bisnis, Teknologi & Pariwisata</span>
+        </div>
+      </a>
+      <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarMain">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+              <i class="bi bi-house-door me-1"></i> Beranda
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="profil.html">
+              <i class="bi bi-info-circle me-1"></i> Profil
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="jurusan.html">
+              <i class="bi bi-grid me-1"></i> Jurusan
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="berita.html">
+              <i class="bi bi-newspaper me-1"></i> Berita
+            </a>
+          </li>
+          <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+            <a href="#newsletter" class="btn btn-primary-custom">
+              <i class="bi bi-bell-fill"></i> Langganan
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <div class="breadcrumb-custom mb-3">
+            <a href="index.html">Beranda</a>
+            <i class="bi bi-chevron-right text-muted" style="font-size: 0.75rem;"></i>
+            <span>Portal Berita</span>
+          </div>
+          <h1 class="page-header-title">Berita & Informasi Terkini</h1>
+          <p class="text-light mb-0 lead" style="font-size: 1.05rem;">
+            Pusat publikasi agenda, kabar prestasi, inovasi teknologi, serta pengumuman resmi SMK Negeri 2 Padang.
+          </p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- News Content Section -->
+  <section class="section-padding">
+    <div class="container">
+
+      <!-- Featured Headline Banner -->
+      <div class="featured-news-banner">
+        <div class="row g-0 align-items-center">
+          <div class="col-lg-7">
+            <img src="assets/images/prestasi.jpg" alt="Juara 1 LKS Nasional SMKN 2 Padang" class="img-fluid w-100" style="object-fit: cover; max-height: 420px;">
+          </div>
+          <div class="col-lg-5 p-4 p-lg-5">
+            <span class="badge bg-danger px-3 py-2 mb-3"><i class="bi bi-trophy-fill text-warning me-1"></i> Sorotan Utama / Prestasi</span>
+            <div class="text-muted small mb-2"><i class="bi bi-calendar3 me-1"></i> 14 Oktober 2026 &bull; Oleh Humas SMKN 2</div>
+            <h3 class="fw-bold mb-3 text-dark">
+              SMKN 2 Padang Torehkan Prestasi Emas: Raih Juara 1 LKS Tingkat Nasional
+            </h3>
+            <p class="text-secondary mb-4" style="line-height: 1.7;">
+              Kontingen siswa SMK Negeri 2 Padang berhasil membawa pulang piala juara pertama pada perhelatan akbar Lomba Kompetensi Siswa (LKS) Nasional. Kemenangan ini membuktikan keunggulan mutu pendidikan kejuruan vokasi di Sumatera Barat.
+            </p>
+            <button type="button" class="btn btn-primary-custom" data-bs-toggle="modal" data-bs-target="#modalBerita1">
+              Baca Liputan Lengkap <i class="bi bi-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Search & Category Filter Bar -->
+      <div class="card border-0 shadow-sm p-4 mb-5 rounded-4 bg-white">
+        <div class="row g-3 align-items-center justify-content-between">
+          <div class="col-lg-5">
+            <div class="input-group">
+              <span class="input-group-text bg-light border-end-0"><i class="bi bi-search text-muted"></i></span>
+              <input type="text" id="newsSearchInput" class="form-control bg-light border-start-0" placeholder="Ketik kata kunci pencarian berita...">
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="filter-btn-group d-flex flex-wrap justify-content-lg-end">
+              <button class="btn news-category-btn active" data-category="all">Semua</button>
+              <button class="btn news-category-btn" data-category="prestasi">Prestasi</button>
+              <button class="btn news-category-btn" data-category="akademik">Akademik & PK</button>
+              <button class="btn news-category-btn" data-category="industri">Kemitraan Industri</button>
+              <button class="btn news-category-btn" data-category="kegiatan">Kegiatan Siswa</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- No News Found Alert -->
+      <div id="noNewsAlert" class="alert alert-warning text-center py-4 rounded-4" style="display: none;">
+        <i class="bi bi-exclamation-circle fs-3 d-block mb-2"></i>
+        <strong>Tidak ada berita yang sesuai dengan kata kunci pencarian.</strong>
+        <p class="mb-0 text-muted">Silakan coba kata kunci lain atau pilih kategori Semua.</p>
+      </div>
+
+      <!-- Main Layout: News Grid & Sidebar -->
+      <div class="row g-4">
+        
+        <!-- Left: News Articles Grid -->
+        <div class="col-lg-8">
+          <div class="row g-4" id="newsList">
+
+            <!-- Card 1 -->
+            <div class="col-md-6 news-item-card" data-category="prestasi">
+              <div class="news-card">
+                <div class="news-img-box">
+                  <img src="assets/images/prestasi.jpg" alt="Juara 1 LKS Nasional">
+                  <span class="news-category-badge"><i class="bi bi-trophy-fill text-warning me-1"></i> Prestasi</span>
+                </div>
+                <div class="news-body">
+                  <div class="news-meta">
+                    <span><i class="bi bi-calendar3"></i> 14 Okt 2026</span>
+                    <span><i class="bi bi-tag"></i> Nasional</span>
+                  </div>
+                  <h5 class="news-title">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalBerita1">Raih Juara 1 LKS Nasional: Bukti Ketangguhan Siswa SMKN 2 Padang</a>
+                  </h5>
+                  <p class="news-snippet">
+                    Apresiasi tinggi diberikan oleh Kepala Dinas Pendidikan Sumbar kepada siswa berprestasi yang berhasil menjuarai bidang Web Technologies dan Cyber Security.
+                  </p>
+                  <div class="news-footer">
+                    <button class="btn btn-sm btn-link text-decoration-none p-0 read-more-link" data-bs-toggle="modal" data-bs-target="#modalBerita1">
+                      Selengkapnya <i class="bi bi-chevron-right"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-6 news-item-card" data-category="akademik">
+              <div class="news-card">
+                <div class="news-img-box">
+                  <img src="assets/images/lab.jpg" alt="Peresmian Lab Komputer Baru">
+                  <span class="news-category-badge"><i class="bi bi-cpu-fill text-info me-1"></i> Akademik & PK</span>
+                </div>
+                <div class="news-body">
+                  <div class="news-meta">
+                    <span><i class="bi bi-calendar3"></i> 10 Okt 2026</span>
+                    <span><i class="bi bi-tag"></i> Fasilitas</span>
+                  </div>
+                  <h5 class="news-title">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalBerita2">Peresmian Laboratorium Komputer Baru Standar Industri SMK PK</a>
+                  </h5>
+                  <p class="news-snippet">
+                    SMKN 2 Padang meresmikan laboratorium mutakhir berkapasitas 80 workstation modern guna menunjang praktikum PPLG, TJKT, dan DKV.
+                  </p>
+                  <div class="news-footer">
+                    <button class="btn btn-sm btn-link text-decoration-none p-0 read-more-link" data-bs-toggle="modal" data-bs-target="#modalBerita2">
+                      Selengkapnya <i class="bi bi-chevron-right"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-6 news-item-card" data-category="industri">
+              <div class="news-card">
+                <div class="news-img-box">
+                  <img src="assets/images/gedung.jpg" alt="MoU Kelas Industri">
+                  <span class="news-category-badge"><i class="bi bi-briefcase-fill text-success me-1"></i> Kemitraan</span>
+                </div>
+                <div class="news-body">
+                  <div class="news-meta">
+                    <span><i class="bi bi-calendar3"></i> 05 Okt 2026</span>
+                    <span><i class="bi bi-tag"></i> Link & Match</span>
+                  </div>
+                  <h5 class="news-title">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalBerita3">Penandatanganan MoU Kelas Industri dengan 15 Korporasi Nasional</a>
+                  </h5>
+                  <p class="news-snippet">
+                    Langkah nyata memastikan lulusan langsung diserap pasar kerja melalui kurikulum terpadu dan program magang bersertifikat industri.
+                  </p>
+                  <div class="news-footer">
+                    <button class="btn btn-sm btn-link text-decoration-none p-0 read-more-link" data-bs-toggle="modal" data-bs-target="#modalBerita3">
+                      Selengkapnya <i class="bi bi-chevron-right"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-6 news-item-card" data-category="kegiatan">
+              <div class="news-card">
+                <div class="news-img-box">
+                  <img src="assets/images/gedung.jpg" alt="Gelar Karya P5">
+                  <span class="news-category-badge"><i class="bi bi-stars text-warning me-1"></i> Kegiatan Siswa</span>
+                </div>
+                <div class="news-body">
+                  <div class="news-meta">
+                    <span><i class="bi bi-calendar3"></i> 28 Sep 2026</span>
+                    <span><i class="bi bi-tag"></i> Gelar Karya</span>
+                  </div>
+                  <h5 class="news-title">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalBerita4">Meriah! Gelar Karya P5 & Ekspo Kewirausahaan Siswa SMKN 2 Padang</a>
+                  </h5>
+                  <p class="news-snippet">
+                    Ratusan produk kreatif inovasi siswa jurusan Pemasaran, AKL, dan DKV dipamerkan dalam bazar tahunan Project Penguatan Profil Pelajar Pancasila.
+                  </p>
+                  <div class="news-footer">
+                    <button class="btn btn-sm btn-link text-decoration-none p-0 read-more-link" data-bs-toggle="modal" data-bs-target="#modalBerita4">
+                      Selengkapnya <i class="bi bi-chevron-right"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-6 news-item-card" data-category="akademik">
+              <div class="news-card">
+                <div class="news-img-box">
+                  <img src="assets/images/lab.jpg" alt="Asesmen Nasional ANBK">
+                  <span class="news-category-badge"><i class="bi bi-laptop text-info me-1"></i> Akademik</span>
+                </div>
+                <div class="news-body">
+                  <div class="news-meta">
+                    <span><i class="bi bi-calendar3"></i> 20 Sep 2026</span>
+                    <span><i class="bi bi-tag"></i> Evaluasi</span>
+                  </div>
+                  <h5 class="news-title">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalBerita5">Pelaksanaan Asesmen Nasional Berbasis Komputer (ANBK) Berjalan Sukses</a>
+                  </h5>
+                  <p class="news-snippet">
+                    Seluruh peserta ANBK SMKN 2 Padang mengikuti ujian dengan lancar berkat kesiapan infrastruktur jaringan Gigabit dan server lokal yang prima.
+                  </p>
+                  <div class="news-footer">
+                    <button class="btn btn-sm btn-link text-decoration-none p-0 read-more-link" data-bs-toggle="modal" data-bs-target="#modalBerita5">
+                      Selengkapnya <i class="bi bi-chevron-right"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-6 news-item-card" data-category="industri">
+              <div class="news-card">
+                <div class="news-img-box">
+                  <img src="assets/images/prestasi.jpg" alt="Sertifikasi LSP-P1 BNSP">
+                  <span class="news-category-badge"><i class="bi bi-award-fill text-warning me-1"></i> Sertifikasi</span>
+                </div>
+                <div class="news-body">
+                  <div class="news-meta">
+                    <span><i class="bi bi-calendar3"></i> 12 Sep 2026</span>
+                    <span><i class="bi bi-tag"></i> Uji Kompetensi</span>
+                  </div>
+                  <h5 class="news-title">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalBerita6">Uji Sertifikasi Kompetensi Profesi BNSP Melalui LSP-P1 SMKN 2 Padang</a>
+                  </h5>
+                  <p class="news-snippet">
+                    Sebanyak 650 siswa tingkat akhir menjalani ujian sertifikasi kompetensi profesi berstandar nasional untuk menjamin daya saing saat lulus.
+                  </p>
+                  <div class="news-footer">
+                    <button class="btn btn-sm btn-link text-decoration-none p-0 read-more-link" data-bs-toggle="modal" data-bs-target="#modalBerita6">
+                      Selengkapnya <i class="bi bi-chevron-right"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Pagination -->
+          <nav aria-label="Page navigation" class="mt-5">
+            <ul class="pagination justify-content-center">
+              <li class="page-item disabled"><a class="page-link" href="#"><i class="bi bi-chevron-left"></i></a></li>
+              <li class="page-item active"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#"><i class="bi bi-chevron-right"></i></a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- Right: Sidebar Info & Agenda -->
+        <div class="col-lg-4">
+          
+          <!-- Agenda Sekolah -->
+          <div class="card border-0 shadow-sm p-4 rounded-4 mb-4 bg-white">
+            <h5 class="fw-bold mb-3 text-dark"><i class="bi bi-calendar-check text-primary me-2"></i>Agenda Mendatang</h5>
+            <div class="d-flex gap-3 mb-3 pb-3 border-bottom">
+              <div class="text-center p-2 rounded-3 bg-danger-subtle text-danger" style="min-width: 55px; height: 55px;">
+                <span class="d-block fw-bold fs-5">25</span>
+                <small class="fw-semibold">OKT</small>
+              </div>
+              <div>
+                <h6 class="fw-bold mb-1 text-dark">Job Fair Vokasi Sumbar 2026</h6>
+                <small class="text-muted"><i class="bi bi-geo-alt"></i> Aula Utama SMKN 2</small>
+              </div>
+            </div>
+
+            <div class="d-flex gap-3 mb-3 pb-3 border-bottom">
+              <div class="text-center p-2 rounded-3 bg-primary-subtle text-primary" style="min-width: 55px; height: 55px;">
+                <span class="d-block fw-bold fs-5">02</span>
+                <small class="fw-semibold">NOV</small>
+              </div>
+              <div>
+                <h6 class="fw-bold mb-1 text-dark">Workshop AI & Cloud Computing</h6>
+                <small class="text-muted"><i class="bi bi-geo-alt"></i> Lab Komputer 1</small>
+              </div>
+            </div>
+
+            <div class="d-flex gap-3">
+              <div class="text-center p-2 rounded-3 bg-success-subtle text-success" style="min-width: 55px; height: 55px;">
+                <span class="d-block fw-bold fs-5">15</span>
+                <small class="fw-semibold">NOV</small>
+              </div>
+              <div>
+                <h6 class="fw-bold mb-1 text-dark">Pelepasan Magang PKL Periode 2</h6>
+                <small class="text-muted"><i class="bi bi-geo-alt"></i> Lapangan Upacara</small>
+              </div>
+            </div>
+          </div>
+
+          <!-- Banner Berita Terpopuler -->
+          <div class="card border-0 shadow-sm p-4 rounded-4 mb-4 bg-white">
+            <h5 class="fw-bold mb-3 text-dark"><i class="bi bi-fire text-danger me-2"></i>Berita Terpopuler</h5>
+            <ul class="list-unstyled mb-0">
+              <li class="mb-3 pb-2 border-bottom">
+                <a href="#" class="text-decoration-none text-dark fw-semibold" data-bs-toggle="modal" data-bs-target="#modalBerita1">
+                  1. Juara 1 LKS Nasional, SMKN 2 Padang Catat Rekor Prestasi Tertinggi
+                </a>
+                <small class="d-block text-muted mt-1"><i class="bi bi-eye"></i> 3.420x dibaca</small>
+              </li>
+              <li class="mb-3 pb-2 border-bottom">
+                <a href="#" class="text-decoration-none text-dark fw-semibold" data-bs-toggle="modal" data-bs-target="#modalBerita2">
+                  2. Fasilitas Lab Komputer Anyar Berstandar Apple & Cisco
+                </a>
+                <small class="d-block text-muted mt-1"><i class="bi bi-eye"></i> 2.180x dibaca</small>
+              </li>
+              <li class="mb-0">
+                <a href="#" class="text-decoration-none text-dark fw-semibold" data-bs-toggle="modal" data-bs-target="#modalBerita3">
+                  3. Kerjasama Magang dengan 15 Perusahaan Multinasional
+                </a>
+                <small class="d-block text-muted mt-1"><i class="bi bi-eye"></i> 1.940x dibaca</small>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Unduhan Dokumen & Surat -->
+          <div class="card border-0 shadow-sm p-4 rounded-4 mb-4 bg-light">
+            <h5 class="fw-bold mb-3 text-dark"><i class="bi bi-download text-success me-2"></i>Pusat Unduhan</h5>
+            <ul class="list-unstyled mb-0">
+              <li class="mb-2">
+                <a href="#" class="text-decoration-none text-secondary d-flex align-items-center justify-content-between p-2 bg-white rounded border">
+                  <span><i class="bi bi-file-earmark-pdf-fill text-danger me-2"></i>Panduan PPDB 2026/2027</span>
+                  <i class="bi bi-download text-primary"></i>
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-decoration-none text-secondary d-flex align-items-center justify-content-between p-2 bg-white rounded border">
+                  <span><i class="bi bi-file-earmark-pdf-fill text-danger me-2"></i>Kalender Akademik Sekolah</span>
+                  <i class="bi bi-download text-primary"></i>
+                </a>
+              </li>
+              <li class="mb-0">
+                <a href="#" class="text-decoration-none text-secondary d-flex align-items-center justify-content-between p-2 bg-white rounded border">
+                  <span><i class="bi bi-file-earmark-pdf-fill text-danger me-2"></i>Buku Panduan Tata Tertib</span>
+                  <i class="bi bi-download text-primary"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Newsletter Card -->
+          <div class="card border-0 shadow-sm p-4 rounded-4 text-white" id="newsletter" style="background: linear-gradient(135deg, #0f172a, #1e293b);">
+            <h5 class="fw-bold mb-2 text-warning"><i class="bi bi-envelope-paper me-2"></i>Buletin Sekolah</h5>
+            <p class="small text-light mb-3">Dapatkan rangkuman warta dan info resmi SMKN 2 Padang langsung di email Anda.</p>
+            <div class="input-group mb-2">
+              <input type="email" class="form-control" placeholder="Email Anda...">
+              <button class="btn btn-warning fw-bold text-dark" type="button">Kirim</button>
+            </div>
+            <small class="text-muted" style="font-size: 0.75rem;">Kami menjaga privasi data Anda dengan aman.</small>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- MODAL BACA BERITA -->
+  <!-- Modal Berita 1 -->
+  <div class="modal fade" id="modalBerita1" tabindex="-1" aria-labelledby="modalBerita1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+      <div class="modal-content border-0 shadow-lg rounded-4">
+        <div class="modal-header border-bottom">
+          <h5 class="modal-title fw-bold text-dark" id="modalBerita1Label">SMKN 2 Padang Raih Juara 1 LKS Tingkat Nasional</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <img src="assets/images/prestasi.jpg" alt="Juara LKS Nasional" class="img-fluid rounded-3 mb-4 w-100">
+          <div class="d-flex align-items-center gap-3 text-muted small mb-3">
+            <span><i class="bi bi-calendar3"></i> 14 Oktober 2026</span>
+            <span><i class="bi bi-person"></i> Humas SMKN 2 Padang</span>
+            <span class="badge bg-danger">Kategori: Prestasi</span>
+          </div>
+          <p class="text-secondary" style="line-height: 1.8;">
+            <strong>PADANG</strong> - Prestasi membanggakan kembali dipersembahkan oleh generasi penerus SMK Negeri 2 Padang. Dalam ajang bergengsi Lomba Kompetensi Siswa (LKS) SMK Tingkat Nasional yang diselenggarakan oleh Balai Pengembangan Talenta Indonesia (BPTI) Kemendikbudristek, kontingen SMKN 2 Padang berhasil membawa pulang medali emas (Juara 1) pada bidang kompetensi IT Network System Administration dan Web Technologies.
+          </p>
+          <p class="text-secondary" style="line-height: 1.8;">
+            Kepala Sekolah SMKN 2 Padang, Drs. Herman Kusuma, M.Pd, menyampaikan rasa syukur dan apresiasi mendalam kepada seluruh siswa, guru pembimbing, serta pihak industri yang telah memberikan pendampingan intensif selama persiapan lomba.
+          </p>
+          <p class="text-secondary" style="line-height: 1.8;">
+            <em>"Kemenangan ini adalah buah dari kerja keras, disiplin, dan sinergi antara kurikulum sekolah dengan standar kompetensi industri dunia kerja. Kami berkomitmen terus memfasilitasi setiap potensi siswa untuk berprestasi di panggung nasional maupun internasional,"</em> tegas beliau saat penyambutan delegasi di kampus SMKN 2 Padang.
+          </p>
+        </div>
+        <div class="modal-footer border-top">
+          <button type="button" class="btn btn-secondary rounded-pill" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Berita 2 -->
+  <div class="modal fade" id="modalBerita2" tabindex="-1" aria-labelledby="modalBerita2Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+      <div class="modal-content border-0 shadow-lg rounded-4">
+        <div class="modal-header border-bottom">
+          <h5 class="modal-title fw-bold text-dark" id="modalBerita2Label">Peresmian Laboratorium Komputer Baru Standar Industri SMK PK</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <img src="assets/images/lab.jpg" alt="Lab Komputer Baru" class="img-fluid rounded-3 mb-4 w-100">
+          <div class="d-flex align-items-center gap-3 text-muted small mb-3">
+            <span><i class="bi bi-calendar3"></i> 10 Oktober 2026</span>
+            <span><i class="bi bi-person"></i> Tim Kurikulum</span>
+            <span class="badge bg-info text-dark">Kategori: Fasilitas & PK</span>
+          </div>
+          <p class="text-secondary" style="line-height: 1.8;">
+            Sebagai bagian dari program SMK Pusat Keunggulan (SMK PK), SMK Negeri 2 Padang meresmikan laboratorium komputer baru dengan spesifikasi tinggi. Ruangan ini dilengkapi 80 PC workstation generasi terkini, pen tablet desain grafis, proyektor smart board interaktif, serta pendingin ruangan yang nyaman.
+          </p>
+          <p class="text-secondary" style="line-height: 1.8;">
+            Fasilitas ini secara khusus diperuntukkan bagi kegiatan praktikum konsentrasi keahlian PPLG (Pengembangan Perangkat Lunak & Gim), TJKT (Jaringan Komputer), dan DKV (Desain Komunikasi Visual) agar suasana belajar mencerminkan ruang kerja studio digital sesungguhnya.
+          </p>
+        </div>
+        <div class="modal-footer border-top">
+          <button type="button" class="btn btn-secondary rounded-pill" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Berita 3 -->
+  <div class="modal fade" id="modalBerita3" tabindex="-1" aria-labelledby="modalBerita3Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+      <div class="modal-content border-0 shadow-lg rounded-4">
+        <div class="modal-header border-bottom">
+          <h5 class="modal-title fw-bold text-dark" id="modalBerita3Label">Penandatanganan MoU Kelas Industri dengan 15 Korporasi Nasional</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <img src="assets/images/gedung.jpg" alt="MoU Industri" class="img-fluid rounded-3 mb-4 w-100">
+          <p class="text-secondary" style="line-height: 1.8;">
+            Guna memperkuat keterserapan kerja lulusan, SMKN 2 Padang menandatangani nota kesepahaman (MoU) bersama 15 korporasi besar meliputi bidang perbankan, telekomunikasi, perhotelan, logistik, dan retail modern. Kerjasama ini mencakup kurikulum sinkronisasi, guru tamu industri, uji kompetensi, hingga rekrutmen kerja langsung sebelum kelulusan siswa.
+          </p>
+        </div>
+        <div class="modal-footer border-top">
+          <button type="button" class="btn btn-secondary rounded-pill" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Berita 4 -->
+  <div class="modal fade" id="modalBerita4" tabindex="-1" aria-labelledby="modalBerita4Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+      <div class="modal-content border-0 shadow-lg rounded-4">
+        <div class="modal-header border-bottom">
+          <h5 class="modal-title fw-bold text-dark" id="modalBerita4Label">Gelar Karya P5 & Ekspo Kewirausahaan Siswa</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <p class="text-secondary" style="line-height: 1.8;">
+            Gelar Karya Projek Penguatan Profil Pelajar Pancasila (P5) dan Ekspo Kewirausahaan berlangsung meriah. Siswa-siswi menampilkan aneka karya kuliner nusantara, produk kriya kreatif Minangkabau, merchandise digital hasil desain sendiri, serta simulasi transaksi kasir digital secara nyata.
+          </p>
+        </div>
+        <div class="modal-footer border-top">
+          <button type="button" class="btn btn-secondary rounded-pill" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Berita 5 -->
+  <div class="modal fade" id="modalBerita5" tabindex="-1" aria-labelledby="modalBerita5Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+      <div class="modal-content border-0 shadow-lg rounded-4">
+        <div class="modal-header border-bottom">
+          <h5 class="modal-title fw-bold text-dark" id="modalBerita5Label">Pelaksanaan ANBK Sukses dan Lancar</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <p class="text-secondary" style="line-height: 1.8;">
+            Asesmen Nasional Berbasis Komputer (ANBK) di SMKN 2 Padang berjalan tertib dengan tingkat partisipasi 100%. Tim teknis proktor dan teknisi jaringan memastikan seluruh infrastruktur komputasi dan suplai daya listrik cadangan (genset & UPS) berjalan optimal selama sesi ujian berlangsung.
+          </p>
+        </div>
+        <div class="modal-footer border-top">
+          <button type="button" class="btn btn-secondary rounded-pill" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Berita 6 -->
+  <div class="modal fade" id="modalBerita6" tabindex="-1" aria-labelledby="modalBerita6Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+      <div class="modal-content border-0 shadow-lg rounded-4">
+        <div class="modal-header border-bottom">
+          <h5 class="modal-title fw-bold text-dark" id="modalBerita6Label">Uji Sertifikasi Kompetensi Profesi BNSP</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <p class="text-secondary" style="line-height: 1.8;">
+            Lembaga Sertifikasi Profesi Pihak Pertama (LSP-P1) SMKN 2 Padang yang berlisensi Badan Nasional Sertifikasi Profesi (BNSP) melaksanakan uji kompetensi menyeluruh bagi seluruh siswa tingkat akhir untuk memastikan kelayakan standar kompetensi kerja nasional Indonesia (SKKNI).
+          </p>
+        </div>
+        <div class="modal-footer border-top">
+          <button type="button" class="btn btn-secondary rounded-pill" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Kolom 1 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="d-flex align-items-center gap-3 mb-3">
+            <img src="assets/images/logo.jpg" alt="Logo SMKN 2 Padang" style="height: 55px;">
+            <div>
+              <h5 class="text-white mb-0" style="margin-bottom: 0 !important;">SMK NEGERI 2 PADANG</h5>
+              <small class="text-warning">Pusat Keunggulan Vokasi</small>
+            </div>
+          </div>
+          <p class="text-secondary mb-3" style="font-size: 0.92rem;">
+            Lembaga pendidikan kejuruan negeri unggulan di Kota Padang, Sumatera Barat. Menyelenggarakan program keahlian di bidang Bisnis Manajemen, Teknologi Komunikasi & Informasi, serta Pariwisata.
+          </p>
+        </div>
+
+        <!-- Kolom 2 -->
+        <div class="col-lg-2 col-md-6">
+          <h5>Menu Utama</h5>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="bi bi-chevron-right"></i> Beranda</a></li>
+            <li><a href="profil.html"><i class="bi bi-chevron-right"></i> Profil Sekolah</a></li>
+            <li><a href="jurusan.html"><i class="bi bi-chevron-right"></i> Program Keahlian</a></li>
+            <li><a href="berita.html"><i class="bi bi-chevron-right"></i> Berita & Artikel</a></li>
+          </ul>
+        </div>
+
+        <!-- Kolom 3 -->
+        <div class="col-lg-3 col-md-6">
+          <h5>Program Keahlian</h5>
+          <ul class="footer-links">
+            <li><a href="jurusan.html"><i class="bi bi-chevron-right"></i> PPLG (Rekayasa Perangkat Lunak)</a></li>
+            <li><a href="jurusan.html"><i class="bi bi-chevron-right"></i> TJKT (Jaringan & Komputer)</a></li>
+            <li><a href="jurusan.html"><i class="bi bi-chevron-right"></i> DKV (Desain Komunikasi Visual)</a></li>
+            <li><a href="jurusan.html"><i class="bi bi-chevron-right"></i> AKL (Akuntansi & Keuangan)</a></li>
+            <li><a href="jurusan.html"><i class="bi bi-chevron-right"></i> MPLB (Manajemen Perkantoran)</a></li>
+          </ul>
+        </div>
+
+        <!-- Kolom 4 -->
+        <div class="col-lg-3 col-md-6">
+          <h5>Hubungi Kami</h5>
+          <div class="footer-contact-item">
+            <i class="bi bi-geo-alt-fill"></i>
+            <span>Jl. Baru Andalas No. 5, Simpang Haru, Padang Timur, Kota Padang 25121</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="bi bi-telephone-fill"></i>
+            <span>(0751) 22915</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="bi bi-envelope-fill"></i>
+            <span>info@smkn2padang.sch.id</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom text-center">
+        <p class="mb-0">
+          &copy; 2026 SMK Negeri 2 Padang. Seluruh Hak Cipta Dilindungi.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

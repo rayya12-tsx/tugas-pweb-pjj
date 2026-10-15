@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Program Keahlian & Jurusan - SMK Negeri 2 Padang</title>
+  <meta name="description" content="Daftar Jurusan dan Program Keahlian Unggulan di SMKN 2 Padang: PPLG, TJKT, DKV, AKL, MPLB, Pemasaran, dan Usaha Layanan Pariwisata.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="assets/images/logo.jpg">
+  
+  <!-- Bootstrap 5.3.3 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <!-- Custom Style -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Top Utility Bar -->
+  <div class="topbar">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center">
+      <div class="d-flex align-items-center gap-3">
+        <span><i class="bi bi-geo-alt text-warning me-1"></i> Jl. Baru Andalas No. 5, Simpang Haru, Padang Timur</span>
+        <span class="d-none d-md-inline"><i class="bi bi-envelope text-warning me-1"></i> info@smkn2padang.sch.id</span>
+        <span class="d-none d-lg-inline"><i class="bi bi-telephone text-warning me-1"></i> (0751) 22915</span>
+      </div>
+      <div class="d-flex align-items-center gap-2">
+        <span class="d-none d-sm-inline">Ikuti Kami:</span>
+        <div class="social-links">
+          <a href="#" title="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" title="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" title="YouTube"><i class="bi bi-youtube"></i></a>
+          <a href="#" title="TikTok"><i class="bi bi-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navbar -->
+  <nav class="navbar navbar-expand-lg main-navbar sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/images/logo.jpg" alt="Logo SMKN 2 Padang" class="brand-logo">
+        <div class="brand-text">
+          <span class="brand-title">SMK NEGERI 2 PADANG</span>
+          <span class="brand-subtitle">Bisnis, Teknologi & Pariwisata</span>
+        </div>
+      </a>
+      <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarMain">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+              <i class="bi bi-house-door me-1"></i> Beranda
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="profil.html">
+              <i class="bi bi-info-circle me-1"></i> Profil
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="jurusan.html">
+              <i class="bi bi-grid me-1"></i> Jurusan
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="berita.html">
+              <i class="bi bi-newspaper me-1"></i> Berita
+            </a>
+          </li>
+          <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+            <a href="profil.html#fasilitas" class="btn btn-primary-custom">
+              <i class="bi bi-check2-circle"></i> Info Kuota
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <div class="breadcrumb-custom mb-3">
+            <a href="index.html">Beranda</a>
+            <i class="bi bi-chevron-right text-muted" style="font-size: 0.75rem;"></i>
+            <span>Program Keahlian</span>
+          </div>
+          <h1 class="page-header-title">Program Keahlian (Jurusan)</h1>
+          <p class="text-light mb-0 lead" style="font-size: 1.05rem;">
+            Pilihan 7 kompetensi keahlian unggulan di SMK Negeri 2 Padang dengan fasilitas laboratorium modern dan link industri.
+          </p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Filter & Intro Section -->
+  <section class="section-padding pb-4">
+    <div class="container">
+      <div class="row align-items-center mb-5">
+        <div class="col-lg-7">
+          <span class="section-tag"><i class="bi bi-mortarboard-fill me-1"></i> Pilihan Masa Depan</span>
+          <h2 class="section-title mb-2">Pilih Minat & Bakat Keahlianmu</h2>
+          <p class="text-secondary mb-0">Setiap jurusan didukung oleh kurikulum berbasis industri, sertifikasi BNSP, serta program Praktik Kerja Lapangan (PKL) di perusahaan bonafide.</p>
+        </div>
+        <div class="col-lg-5 text-lg-end mt-4 mt-lg-0">
+          <div class="filter-btn-group d-inline-flex flex-wrap justify-content-lg-end">
+            <button class="btn jurusan-filter-btn active" data-filter="all">Semua Jurusan</button>
+            <button class="btn jurusan-filter-btn" data-filter="ti">Teknologi & TIK</button>
+            <button class="btn jurusan-filter-btn" data-filter="bisnis">Bisnis Manajemen</button>
+            <button class="btn jurusan-filter-btn" data-filter="wisata">Pariwisata</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Grid Jurusan -->
+      <div class="row g-4" id="jurusanGrid">
+
+        <!-- 1. PPLG -->
+        <div class="col-md-6 col-lg-4 jurusan-item" data-category="ti">
+          <div class="jurusan-card">
+            <div class="jurusan-header">
+              <span class="jurusan-badge badge-pplg">Teknologi Informasi</span>
+              <div class="jurusan-icon-wrap theme-pplg">
+                <i class="bi bi-laptop"></i>
+              </div>
+              <h5 class="jurusan-title">Pengembangan Perangkat Lunak & Gim (PPLG)</h5>
+              <span class="jurusan-code"><i class="bi bi-qr-code me-1"></i> Kode: PPLG (RPL)</span>
+            </div>
+            <div class="jurusan-body">
+              <p class="jurusan-desc">
+                Mencetak talenta pengembang aplikasi masa depan yang mahir merancang perangkat lunak berbasis website, aplikasi smartphone (Android/iOS), dan game interaktif.
+              </p>
+              <div class="jurusan-competencies">
+                <h6>Materi & Keterampilan Utama:</h6>
+                <span class="competency-tag">HTML5/CSS3/JavaScript</span>
+                <span class="competency-tag">Laravel & PHP</span>
+                <span class="competency-tag">Flutter & Dart</span>
+                <span class="competency-tag">MySQL & PostgreSQL</span>
+                <span class="competency-tag">UI/UX Figma</span>
+              </div>
+              <div class="mt-2 mb-3">
+                <small class="fw-bold text-dark d-block mb-1"><i class="bi bi-briefcase text-primary me-1"></i> Prospek Karir:</small>
+                <small class="text-muted">Web Developer, Mobile Programmer, UI/UX Designer, Database Specialist, Game Developer.</small>
+              </div>
+              <div class="jurusan-footer">
+                <button type="button" class="btn btn-sm btn-outline-primary rounded-pill w-100" data-bs-toggle="modal" data-bs-target="#modalPPLG">
+                  <i class="bi bi-info-circle me-1"></i> Informasi Lengkap Silabus
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. TJKT -->
+        <div class="col-md-6 col-lg-4 jurusan-item" data-category="ti">
+          <div class="jurusan-card">
+            <div class="jurusan-header">
+              <span class="jurusan-badge badge-tjkt">Jaringan & Cyber</span>
+              <div class="jurusan-icon-wrap theme-tjkt">
+                <i class="bi bi-router-fill"></i>
+              </div>
+              <h5 class="jurusan-title">Teknik Jaringan Komputer & Telekomunikasi (TJKT)</h5>
+              <span class="jurusan-code"><i class="bi bi-qr-code me-1"></i> Kode: TJKT (TKJ)</span>
+            </div>
+            <div class="jurusan-body">
+              <p class="jurusan-desc">
+                Membina tenaga ahli infrastruktur jaringan internet, konfigurasi routing switching skala enterprise, instalasi kabel serat optik (fiber optic), serta keamanan sistem.
+              </p>
+              <div class="jurusan-competencies">
+                <h6>Materi & Keterampilan Utama:</h6>
+                <span class="competency-tag">Routing Cisco & Mikrotik</span>
+                <span class="competency-tag">Fiber Optic Splicing</span>
+                <span class="competency-tag">Linux Server Admin</span>
+                <span class="competency-tag">Cyber Security Basic</span>
+                <span class="competency-tag">Cloud Architecture</span>
+              </div>
+              <div class="mt-2 mb-3">
+                <small class="fw-bold text-dark d-block mb-1"><i class="bi bi-briefcase text-success me-1"></i> Prospek Karir:</small>
+                <small class="text-muted">Network Engineer, IT Support Administrator, Cyber Defense Staff, Fiber Optic Technician.</small>
+              </div>
+              <div class="jurusan-footer">
+                <button type="button" class="btn btn-sm btn-outline-success rounded-pill w-100" data-bs-toggle="modal" data-bs-target="#modalTJKT">
+                  <i class="bi bi-info-circle me-1"></i> Informasi Lengkap Silabus
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. DKV -->
+        <div class="col-md-6 col-lg-4 jurusan-item" data-category="ti">
+          <div class="jurusan-card">
+            <div class="jurusan-header">
+              <span class="jurusan-badge badge-dkv">Kreatif & Desain</span>
+              <div class="jurusan-icon-wrap theme-dkv">
+                <i class="bi bi-palette-fill"></i>
+              </div>
+              <h5 class="jurusan-title">Desain Komunikasi Visual (DKV)</h5>
+              <span class="jurusan-code"><i class="bi bi-qr-code me-1"></i> Kode: DKV (Multimedia)</span>
+            </div>
+            <div class="jurusan-body">
+              <p class="jurusan-desc">
+                Menghasilkan insan kreatif di bidang desain grafis komersial, motion animation, sinematografi, fotografi studio, branding korporat, serta produksi multimedia interaktif.
+              </p>
+              <div class="jurusan-competencies">
+                <h6>Materi & Keterampilan Utama:</h6>
+                <span class="competency-tag">Adobe Photoshop & Illustrator</span>
+                <span class="competency-tag">Video Premiere & After Effects</span>
+                <span class="competency-tag">Fotografi & Tata Cahaya</span>
+                <span class="competency-tag">Animasi 2D / 3D</span>
+                <span class="competency-tag">Broadcasting Podcast</span>
+              </div>
+              <div class="mt-2 mb-3">
+                <small class="fw-bold text-dark d-block mb-1"><i class="bi bi-briefcase text-purple me-1"></i> Prospek Karir:</small>
+                <small class="text-muted">Graphic Designer, Motion Animator, Video Editor, Photographer, Social Media Creator.</small>
+              </div>
+              <div class="jurusan-footer">
+                <button type="button" class="btn btn-sm btn-outline-secondary rounded-pill w-100" data-bs-toggle="modal" data-bs-target="#modalDKV">
+                  <i class="bi bi-info-circle me-1"></i> Informasi Lengkap Silabus
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. AKL -->
+        <div class="col-md-6 col-lg-4 jurusan-item" data-category="bisnis">
+          <div class="jurusan-card">
+            <div class="jurusan-header">
+              <span class="jurusan-badge badge-akl">Bisnis & Keuangan</span>
+              <div class="jurusan-icon-wrap theme-akl">
+                <i class="bi bi-calculator-fill"></i>
+              </div>
+              <h5 class="jurusan-title">Akuntansi & Keuangan Lembaga (AKL)</h5>
+              <span class="jurusan-code"><i class="bi bi-qr-code me-1"></i> Kode: AKL</span>
+            </div>
+            <div class="jurusan-body">
+              <p class="jurusan-desc">
+                Melatih tenaga keuangan profesional yang mahir menyusun siklus akuntansi jasa, dagang, manufaktur, perpajakan, operasional Bank Mini sekolah, dan software akuntansi.
+              </p>
+              <div class="jurusan-competencies">
+                <h6>Materi & Keterampilan Utama:</h6>
+                <span class="competency-tag">Siklus Akuntansi Perusahaan</span>
+                <span class="competency-tag">Aplikasi MYOB & Accurate</span>
+                <span class="competency-tag">Perpajakan (PPh & PPN)</span>
+                <span class="competency-tag">Simulasi Bank Mini</span>
+                <span class="competency-tag">Spreadsheet Advanced</span>
+              </div>
+              <div class="mt-2 mb-3">
+                <small class="fw-bold text-dark d-block mb-1"><i class="bi bi-briefcase text-warning me-1"></i> Prospek Karir:</small>
+                <small class="text-muted">Staf Akunting, Teller & CS Perbankan, Tax Staff, Internal Auditor Junior, Bendahara Perusahaan.</small>
+              </div>
+              <div class="jurusan-footer">
+                <button type="button" class="btn btn-sm btn-outline-warning rounded-pill w-100 text-dark" data-bs-toggle="modal" data-bs-target="#modalAKL">
+                  <i class="bi bi-info-circle me-1"></i> Informasi Lengkap Silabus
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. MPLB -->
+        <div class="col-md-6 col-lg-4 jurusan-item" data-category="bisnis">
+          <div class="jurusan-card">
+            <div class="jurusan-header">
+              <span class="jurusan-badge badge-mplb">Manajemen Perkantoran</span>
+              <div class="jurusan-icon-wrap theme-mplb">
+                <i class="bi bi-file-earmark-text-fill"></i>
+              </div>
+              <h5 class="jurusan-title">Manajemen Perkantoran & Layanan Bisnis (MPLB)</h5>
+              <span class="jurusan-code"><i class="bi bi-qr-code me-1"></i> Kode: MPLB (OTKP)</span>
+            </div>
+            <div class="jurusan-body">
+              <p class="jurusan-desc">
+                Membentuk tenaga administrasi modern yang menguasai otomatisasi tata kelola perkantoran digital, korespondensi bilingual, kearsipan sistem komputer, serta protokoler humas.
+              </p>
+              <div class="jurusan-competencies">
+                <h6>Materi & Keterampilan Utama:</h6>
+                <span class="competency-tag">Digital Office Management</span>
+                <span class="competency-tag">Korespondensi Bisnis</span>
+                <span class="competency-tag">Public Relations & MC</span>
+                <span class="competency-tag">E-Arsip Dokumen</span>
+                <span class="competency-tag">Customer Service Excellence</span>
+              </div>
+              <div class="mt-2 mb-3">
+                <small class="fw-bold text-dark d-block mb-1"><i class="bi bi-briefcase text-danger me-1"></i> Prospek Karir:</small>
+                <small class="text-muted">Sekretaris Eksekutif, Front Office Manager, Staf Humas & Protokol, Staf Administrasi HRD.</small>
+              </div>
+              <div class="jurusan-footer">
+                <button type="button" class="btn btn-sm btn-outline-danger rounded-pill w-100" data-bs-toggle="modal" data-bs-target="#modalMPLB">
+                  <i class="bi bi-info-circle me-1"></i> Informasi Lengkap Silabus
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Pemasaran (BDP) -->
+        <div class="col-md-6 col-lg-4 jurusan-item" data-category="bisnis">
+          <div class="jurusan-card">
+            <div class="jurusan-header">
+              <span class="jurusan-badge badge-bdp">Bisnis & Marketing</span>
+              <div class="jurusan-icon-wrap theme-bdp">
+                <i class="bi bi-shop-window"></i>
+              </div>
+              <h5 class="jurusan-title">Pemasaran / Bisnis Daring & Pemasaran (BDP)</h5>
+              <span class="jurusan-code"><i class="bi bi-qr-code me-1"></i> Kode: PM / BDP</span>
+            </div>
+            <div class="jurusan-body">
+              <p class="jurusan-desc">
+                Mendidik wirausahawan dan profesional pemasaran digital (digital marketing), pengelolaan e-commerce marketplace, manajemen ritel modern, dan copy writing periklanan.
+              </p>
+              <div class="jurusan-competencies">
+                <h6>Materi & Keterampilan Utama:</h6>
+                <span class="competency-tag">Digital Marketing (Meta/Tiktok Ads)</span>
+                <span class="competency-tag">E-Commerce Shopee/Tokopedia</span>
+                <span class="competency-tag">Sistem Kasir POS Ritel</span>
+                <span class="competency-tag">Copywriting & Penjualan</span>
+                <span class="competency-tag">Visual Merchandising</span>
+              </div>
+              <div class="mt-2 mb-3">
+                <small class="fw-bold text-dark d-block mb-1"><i class="bi bi-briefcase text-warning me-1"></i> Prospek Karir:</small>
+                <small class="text-muted">Digital Marketer, Social Media Specialist, Retail Store Supervisor, Wirausahawan Toko Online.</small>
+              </div>
+              <div class="jurusan-footer">
+                <button type="button" class="btn btn-sm btn-outline-warning rounded-pill w-100 text-dark" data-bs-toggle="modal" data-bs-target="#modalBDP">
+                  <i class="bi bi-info-circle me-1"></i> Informasi Lengkap Silabus
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7. Usaha Layanan Pariwisata (ULP) -->
+        <div class="col-md-6 col-lg-4 jurusan-item" data-category="wisata">
+          <div class="jurusan-card">
+            <div class="jurusan-header">
+              <span class="jurusan-badge badge-ulp">Hospitality & Pariwisata</span>
+              <div class="jurusan-icon-wrap theme-ulp">
+                <i class="bi bi-airplane-engines-fill"></i>
+              </div>
+              <h5 class="jurusan-title">Usaha Layanan Pariwisata (ULP)</h5>
+              <span class="jurusan-code"><i class="bi bi-qr-code me-1"></i> Kode: ULP (UPW)</span>
+            </div>
+            <div class="jurusan-body">
+              <p class="jurusan-desc">
+                Menghasilkan praktisi industri pariwisata berstandar global dalam pemanduan wisata (tour guide), perencanaan paket tour, sistem reservasi tiket penerbangan, serta event planner MICE.
+              </p>
+              <div class="jurusan-competencies">
+                <h6>Materi & Keterampilan Utama:</h6>
+                <span class="competency-tag">Tour Guiding & Pemanduan</span>
+                <span class="competency-tag">Ticketing System GDS</span>
+                <span class="competency-tag">Perancangan Paket Wisata</span>
+                <span class="competency-tag">MICE Event Organizer</span>
+                <span class="competency-tag">Bahasa Inggris Pariwisata</span>
+              </div>
+              <div class="mt-2 mb-3">
+                <small class="fw-bold text-dark d-block mb-1"><i class="bi bi-briefcase text-info me-1"></i> Prospek Karir:</small>
+                <small class="text-muted">Tour Guide Bersertifikat, Tour Planner Konsultan, Petugas Reservasi Maskapai, Event Planner.</small>
+              </div>
+              <div class="jurusan-footer">
+                <button type="button" class="btn btn-sm btn-outline-info rounded-pill w-100" data-bs-toggle="modal" data-bs-target="#modalULP">
+                  <i class="bi bi-info-circle me-1"></i> Informasi Lengkap Silabus
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Mitra Industri & Sertifikasi -->
+  <section class="section-padding bg-white">
+    <div class="container text-center">
+      <span class="section-tag"><i class="bi bi-buildings-fill me-1"></i> Link & Match Industri</span>
+      <h2 class="section-title">Mitra Industri Terkemuka</h2>
+      <p class="section-desc">Bekerjasama dengan institusi bonafide untuk penyelarasan kurikulum, magang kerja bersertifikat, dan perekrutan kerja langsung.</p>
+      
+      <div class="row g-4 justify-content-center align-items-center">
+        <div class="col-6 col-md-3">
+          <div class="p-3 border rounded-3 bg-light text-center h-100 d-flex flex-column justify-content-center">
+            <h5 class="fw-bold text-dark mb-1"><i class="bi bi-bank2 text-danger"></i> Bank Nagari</h5>
+            <small class="text-muted">Mitra Keuangan & Perbankan</small>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="p-3 border rounded-3 bg-light text-center h-100 d-flex flex-column justify-content-center">
+            <h5 class="fw-bold text-dark mb-1"><i class="bi bi-wifi text-primary"></i> Telkom Indonesia</h5>
+            <small class="text-muted">Mitra Jaringan & TIK</small>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="p-3 border rounded-3 bg-light text-center h-100 d-flex flex-column justify-content-center">
+            <h5 class="fw-bold text-dark mb-1"><i class="bi bi-building text-warning"></i> PT Semen Padang</h5>
+            <small class="text-muted">Mitra Industri & Magang</small>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="p-3 border rounded-3 bg-light text-center h-100 d-flex flex-column justify-content-center">
+            <h5 class="fw-bold text-dark mb-1"><i class="bi bi-shop text-success"></i> Indomaret & Alfamart</h5>
+            <small class="text-muted">Kelas Ritel & Bisnis Daring</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODAL DETAILS JURUSAN -->
+  <!-- Modal PPLG -->
+  <div class="modal fade" id="modalPPLG" tabindex="-1" aria-labelledby="modalPPLGLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content border-0 shadow-lg rounded-4">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title fw-bold" id="modalPPLGLabel"><i class="bi bi-code-slash me-2"></i>Pengembangan Perangkat Lunak & Gim (PPLG)</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <h6 class="fw-bold text-primary">Kurikulum & Fasilitas Praktik:</h6>
+          <p class="text-secondary">Siswa PPLG dididik di laboratorium komputer berpendingin udara dengan akses dual monitor dan server local deployment. Siswa mempelajari teknologi industri terkini seperti Git Version Control, Laravel Framework, Flutter Mobile Framework, RESTful API, dan Game Engine Unity/Godot.</p>
+          <div class="row g-3 my-2">
+            <div class="col-md-6">
+              <div class="p-3 bg-light rounded-3 border">
+                <strong class="d-block mb-1 text-dark"><i class="bi bi-award-fill text-warning me-1"></i> Sertifikasi Profesi:</strong>
+                <small class="text-muted">Junior Web Programmer (BNSP), Database Administrator Associate.</small>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="p-3 bg-light rounded-3 border">
+                <strong class="d-block mb-1 text-dark"><i class="bi bi-building-check text-success me-1"></i> Tempat Praktik PKL:</strong>
+                <small class="text-muted">Software House, Startup Digital, Bank, Diskominfo Sumbar.</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+          <a href="profil.html#fasilitas" class="btn btn-primary">Lihat Lab Komputer</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal TJKT -->
+  <div class="modal fade" id="modalTJKT" tabindex="-1" aria-labelledby="modalTJKTLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content border-0 shadow-lg rounded-4">
+        <div class="modal-header bg-success text-white">
+          <h5 class="modal-title fw-bold" id="modalTJKTLabel"><i class="bi bi-router-fill me-2"></i>Teknik Jaringan Komputer & Telekomunikasi (TJKT)</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <h6 class="fw-bold text-success">Kurikulum & Fasilitas Praktik:</h6>
+          <p class="text-secondary">Dilengkapi peralatan fusion splicer fiber optic, routerboard Mikrotik seri mutakhir, switch manageable Cisco, server rack Debian/Ubuntu, dan laboratorium simulasi keamanan jaringan komputer.</p>
+          <div class="row g-3 my-2">
+            <div class="col-md-6">
+              <div class="p-3 bg-light rounded-3 border">
+                <strong class="d-block mb-1 text-dark"><i class="bi bi-award-fill text-warning me-1"></i> Sertifikasi Profesi:</strong>
+                <small class="text-muted">MikroTik Certified Network Associate (MTCNA), Teknisi Jaringan BNSP.</small>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="p-3 bg-light rounded-3 border">
+                <strong class="d-block mb-1 text-dark"><i class="bi bi-building-check text-success me-1"></i> Tempat Praktik PKL:</strong>
+                <small class="text-muted">PT Telkom Indonesia, Icon+, ISP Lokal Padang, Kantor Pemerintahan.</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal DKV -->
+  <div class="modal fade" id="modalDKV" tabindex="-1" aria-labelledby="modalDKVLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content border-0 shadow-lg rounded-4">
+        <div class="modal-header bg-dark text-white">
+          <h5 class="modal-title fw-bold" id="modalDKVLabel"><i class="bi bi-palette-fill me-2"></i>Desain Komunikasi Visual (DKV)</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <h6 class="fw-bold text-dark">Studio Desain & Produksi Kreatif:</h6>
+          <p class="text-secondary">Dilengkapi studio podcast kedap suara, kamera mirrorless profesional, lighting kit studio, pen tablet grafis, dan PC workstation dengan kartu grafis bertenaga untuk render video dan animasi 3D.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal AKL -->
+  <div class="modal fade" id="modalAKL" tabindex="-1" aria-labelledby="modalAKLLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content border-0 shadow-lg rounded-4">
+        <div class="modal-header bg-warning text-dark">
+          <h5 class="modal-title fw-bold" id="modalAKLLabel"><i class="bi bi-calculator-fill me-2"></i>Akuntansi & Keuangan Lembaga (AKL)</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <h6 class="fw-bold text-dark">Teaching Factory Bank Mini:</h6>
+          <p class="text-secondary">Siswa belajar langsung dalam operasional transaksi simpan-pinjam harian sekolah melalui Bank Mini yang tersistemasi dengan software perbankan riil dan sertifikasi teknisi akuntansi madya.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal MPLB -->
+  <div class="modal fade" id="modalMPLB" tabindex="-1" aria-labelledby="modalMPLBLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content border-0 shadow-lg rounded-4">
+        <div class="modal-header bg-danger text-white">
+          <h5 class="modal-title fw-bold" id="modalMPLBLabel"><i class="bi bi-file-earmark-text-fill me-2"></i>Manajemen Perkantoran & Layanan Bisnis (MPLB)</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <h6 class="fw-bold text-danger">Laboratorium Perkantoran Modern:</h6>
+          <p class="text-secondary">Dilengkapi simulasi ruang rapat eksekutif, peralatan telekonferensi, mesin penjilidan dokumen modern, dan sistem kearsipan elektronis terpadu.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal BDP -->
+  <div class="modal fade" id="modalBDP" tabindex="-1" aria-labelledby="modalBDPLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content border-0 shadow-lg rounded-4">
+        <div class="modal-header bg-warning text-dark">
+          <h5 class="modal-title fw-bold" id="modalBDPLabel"><i class="bi bi-shop-window me-2"></i>Pemasaran / Bisnis Daring & Pemasaran</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <h6 class="fw-bold text-dark">Business Center & Ritel Sekolah:</h6>
+          <p class="text-secondary">Siswa mengelola toko ritel sekolah dengan mesin kasir barcode scanner, strategi merchandising, dan pengelolaan live streaming penjualan media sosial.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal ULP -->
+  <div class="modal fade" id="modalULP" tabindex="-1" aria-labelledby="modalULPLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content border-0 shadow-lg rounded-4">
+        <div class="modal-header bg-info text-dark">
+          <h5 class="modal-title fw-bold" id="modalULPLabel"><i class="bi bi-airplane-engines-fill me-2"></i>Usaha Layanan Pariwisata (ULP)</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <h6 class="fw-bold text-dark">Biro Wisata Siswa (Travel Agent Lab):</h6>
+          <p class="text-secondary">Fasilitas simulasi reservasi tiket maskapai, front desk hotel, penyusunan paket tour wisata Sumatera Barat & mancanegara, serta kepemanduan wisata berbahasa Inggris.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Kolom 1 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="d-flex align-items-center gap-3 mb-3">
+            <img src="assets/images/logo.jpg" alt="Logo SMKN 2 Padang" style="height: 55px;">
+            <div>
+              <h5 class="text-white mb-0" style="margin-bottom: 0 !important;">SMK NEGERI 2 PADANG</h5>
+              <small class="text-warning">Pusat Keunggulan Vokasi</small>
+            </div>
+          </div>
+          <p class="text-secondary mb-3" style="font-size: 0.92rem;">
+            Lembaga pendidikan kejuruan negeri unggulan di Kota Padang, Sumatera Barat. Menyelenggarakan 7 program keahlian di bidang Bisnis Manajemen, Teknologi Komunikasi & Informasi, serta Pariwisata.
+          </p>
+        </div>
+
+        <!-- Kolom 2 -->
+        <div class="col-lg-2 col-md-6">
+          <h5>Menu Utama</h5>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="bi bi-chevron-right"></i> Beranda</a></li>
+            <li><a href="profil.html"><i class="bi bi-chevron-right"></i> Profil Sekolah</a></li>
+            <li><a href="jurusan.html"><i class="bi bi-chevron-right"></i> Program Keahlian</a></li>
+            <li><a href="berita.html"><i class="bi bi-chevron-right"></i> Berita & Artikel</a></li>
+          </ul>
+        </div>
+
+        <!-- Kolom 3 -->
+        <div class="col-lg-3 col-md-6">
+          <h5>Program Keahlian</h5>
+          <ul class="footer-links">
+            <li><a href="jurusan.html"><i class="bi bi-chevron-right"></i> PPLG (Rekayasa Perangkat Lunak)</a></li>
+            <li><a href="jurusan.html"><i class="bi bi-chevron-right"></i> TJKT (Jaringan & Komputer)</a></li>
+            <li><a href="jurusan.html"><i class="bi bi-chevron-right"></i> DKV (Desain Komunikasi Visual)</a></li>
+            <li><a href="jurusan.html"><i class="bi bi-chevron-right"></i> AKL (Akuntansi & Keuangan)</a></li>
+            <li><a href="jurusan.html"><i class="bi bi-chevron-right"></i> MPLB (Manajemen Perkantoran)</a></li>
+          </ul>
+        </div>
+
+        <!-- Kolom 4 -->
+        <div class="col-lg-3 col-md-6">
+          <h5>Hubungi Kami</h5>
+          <div class="footer-contact-item">
+            <i class="bi bi-geo-alt-fill"></i>
+            <span>Jl. Baru Andalas No. 5, Simpang Haru, Padang Timur, Kota Padang 25121</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="bi bi-telephone-fill"></i>
+            <span>(0751) 22915</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="bi bi-envelope-fill"></i>
+            <span>info@smkn2padang.sch.id</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom text-center">
+        <p class="mb-0">
+          &copy; 2026 SMK Negeri 2 Padang. Seluruh Hak Cipta Dilindungi.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
